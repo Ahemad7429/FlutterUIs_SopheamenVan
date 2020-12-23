@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
         NavigationPath.chWelcomeScreen: (ctx) => ChWelcomeScreen(),
         NavigationPath.covidHomePage: (ctx) => CovidHomePage(),
         NavigationPath.furHomeScreen: (ctx) => FurHomeScreen(),
+        NavigationPath.interiorHomePage: (ctx) => InteriorHomePage(),
       },
     );
   }

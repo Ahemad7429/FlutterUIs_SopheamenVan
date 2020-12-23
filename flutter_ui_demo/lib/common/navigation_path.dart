@@ -4,4 +4,5 @@ class NavigationPath {
   static const chWelcomeScreen = 'chWelcomeScreen';
   static const covidHomePage = 'CovidHomePage';
   static const furHomeScreen = 'FurHomeScreen';
+  static const interiorHomePage = 'InteriorHomePage';
 }

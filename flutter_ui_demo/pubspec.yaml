@@ -53,6 +53,7 @@ flutter:
     - assets/images/
     - assets/images/covid_app/
     - assets/images/furniture_app/
+    - assets/images/interior_app/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
