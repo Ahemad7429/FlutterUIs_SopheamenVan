@@ -32,6 +32,8 @@ dependencies:
   carousel_slider: ^2.3.1
   charts_flutter: ^0.9.0
   line_icons:
+  google_fonts: 
+  font_awesome_flutter: ^8.8.1
 
 dev_dependencies:
   flutter_test:
@@ -54,7 +56,8 @@ flutter:
     - assets/images/covid_app/
     - assets/images/furniture_app/
     - assets/images/interior_app/
-  #   - images/a_dot_ham.jpeg
+    - assets/images/pet_app/
+ 
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

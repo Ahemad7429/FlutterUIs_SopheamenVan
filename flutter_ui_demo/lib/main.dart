@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
         NavigationPath.covidHomePage: (ctx) => CovidHomePage(),
         NavigationPath.furHomeScreen: (ctx) => FurHomeScreen(),
         NavigationPath.interiorHomePage: (ctx) => InteriorHomePage(),
+        NavigationPath.petHomeScreen: (ctx) => PetHomeScreen(),
       },
     );
   }

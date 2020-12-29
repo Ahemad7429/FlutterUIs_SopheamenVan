@@ -57,6 +57,12 @@ class UIHomeScreen extends StatelessWidget {
               Navigator.of(context).pushNamed(NavigationPath.interiorHomePage);
             },
           ),
+          _buildAppButton(
+            title: 'Pet App',
+            onClick: () {
+              Navigator.of(context).pushNamed(NavigationPath.petHomeScreen);
+            },
+          ),
         ],
       ),
     );
