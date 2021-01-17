@@ -69,6 +69,13 @@ class UIHomeScreen extends StatelessWidget {
               Navigator.of(context).pushNamed(NavigationPath.onlineHomeScreen);
             },
           ),
+          _buildAppButton(
+            title: 'Instagram Clone App',
+            onClick: () {
+              Navigator.of(context)
+                  .pushNamed(NavigationPath.instagramRootScreen);
+            },
+          ),
         ],
       ),
     );

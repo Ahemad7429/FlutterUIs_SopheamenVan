@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_demo/apps/online_shopping_app/screens/shopping_home_screen.dart';
 import 'package:flutter_ui_demo/common/navigation_path.dart';
 import 'package:flutter_ui_demo/common/ui_home_screen.dart';
 import './apps/apps.dart';
@@ -24,6 +23,7 @@ class MyApp extends StatelessWidget {
         NavigationPath.interiorHomePage: (ctx) => InteriorHomePage(),
         NavigationPath.petHomeScreen: (ctx) => PetHomeScreen(),
         NavigationPath.onlineHomeScreen: (ctx) => ShoppingHomeScreen(),
+        NavigationPath.instagramRootScreen: (ctx) => InstagramRootScreen(),
       },
     );
   }
