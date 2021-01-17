@@ -101,7 +101,7 @@ class _RootPageState extends State<RootPage> {
     return Scaffold(
       body: getBody(),
       bottomNavigationBar: SizedBox(
-        height: 70,
+        height: 85,
         child: BottomNavigationBar(
           items: items,
           onTap: (index) {

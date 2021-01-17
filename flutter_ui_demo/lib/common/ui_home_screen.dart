@@ -63,6 +63,12 @@ class UIHomeScreen extends StatelessWidget {
               Navigator.of(context).pushNamed(NavigationPath.petHomeScreen);
             },
           ),
+          _buildAppButton(
+            title: 'Online Shopping App',
+            onClick: () {
+              Navigator.of(context).pushNamed(NavigationPath.onlineHomeScreen);
+            },
+          ),
         ],
       ),
     );

@@ -6,4 +6,5 @@ class NavigationPath {
   static const furHomeScreen = 'FurHomeScreen';
   static const interiorHomePage = 'InteriorHomePage';
   static const petHomeScreen = 'PetHomeScreen';
+  static const onlineHomeScreen = 'OnlineHomeScreen';
 }

@@ -12,8 +12,8 @@ class CardDiscover extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(15.0),
-      width: 140,
-      height: 140,
+      width: 120,
+      height: 120,
       decoration: BoxDecoration(
         color: textWhite,
         borderRadius: BorderRadius.circular(15),
