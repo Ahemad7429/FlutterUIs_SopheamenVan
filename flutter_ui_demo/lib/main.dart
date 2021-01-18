@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
         NavigationPath.petHomeScreen: (ctx) => PetHomeScreen(),
         NavigationPath.onlineHomeScreen: (ctx) => ShoppingHomeScreen(),
         NavigationPath.instagramRootScreen: (ctx) => InstagramRootScreen(),
+        NavigationPath.fbHomeScreen: (ctx) => FBHomeScreen(),
       },
     );
   }

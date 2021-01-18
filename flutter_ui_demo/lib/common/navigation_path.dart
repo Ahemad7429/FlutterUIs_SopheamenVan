@@ -8,4 +8,5 @@ class NavigationPath {
   static const petHomeScreen = 'PetHomeScreen';
   static const onlineHomeScreen = 'OnlineHomeScreen';
   static const instagramRootScreen = 'InstagramRootScreen';
+  static const fbHomeScreen = 'FBHomeScreen';
 }

@@ -76,6 +76,12 @@ class UIHomeScreen extends StatelessWidget {
                   .pushNamed(NavigationPath.instagramRootScreen);
             },
           ),
+          _buildAppButton(
+            title: 'Facebook Messenger Clone App',
+            onClick: () {
+              Navigator.of(context).pushNamed(NavigationPath.fbHomeScreen);
+            },
+          ),
         ],
       ),
     );
