@@ -24,16 +24,16 @@ dependencies:
   flutter:
     sdk: flutter
 
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: any
   flutter_svg: ^0.18.1
   carousel_slider: ^2.3.1
   charts_flutter: ^0.9.0
-  line_icons:
-  google_fonts: 
+  line_icons: null
+  google_fonts: null
   font_awesome_flutter: ^8.8.1
+  video_player: ^1.0.1
 
 dev_dependencies:
   flutter_test:
@@ -41,7 +41,6 @@ dev_dependencies:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
-
 # The following section is specific to Flutter.
 flutter:
 
@@ -58,14 +57,12 @@ flutter:
     - assets/images/interior_app/
     - assets/images/pet_app/
     - assets/images/instagram_app/
- 
+    - assets/videos/tik_tok_clone_app/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
-
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
-
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
   # "family" key with the font family name, and a "fonts" key with a
@@ -78,11 +75,9 @@ flutter:
     - family: Billabong
       fonts:
         - asset: assets/fonts/Billabong.ttf
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
+    - family: TikTokIcons
+      fonts:
+        - asset: assets/fonts/TikTokIcons.ttf
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+

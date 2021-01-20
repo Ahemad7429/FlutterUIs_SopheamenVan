@@ -25,6 +25,7 @@ class MyApp extends StatelessWidget {
         NavigationPath.onlineHomeScreen: (ctx) => ShoppingHomeScreen(),
         NavigationPath.instagramRootScreen: (ctx) => InstagramRootScreen(),
         NavigationPath.fbHomeScreen: (ctx) => FBHomeScreen(),
+        NavigationPath.tikTokRootScreen: (ctx) => TikTokRootScreen(),
       },
     );
   }

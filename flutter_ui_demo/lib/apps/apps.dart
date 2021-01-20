@@ -7,3 +7,4 @@ export './pet_app/pet_app.dart';
 export './online_shopping_app/online_shopping_app.dart';
 export './instagram_clone_app/instagram_clone_app.dart';
 export './fb_messenger_clone_app/fb_messenger_clone_app.dart';
+export './tik_tok_clone_app/tik_tok_clone_app.dart';

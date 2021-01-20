@@ -82,6 +82,12 @@ class UIHomeScreen extends StatelessWidget {
               Navigator.of(context).pushNamed(NavigationPath.fbHomeScreen);
             },
           ),
+          _buildAppButton(
+            title: 'Tik Tok Clone App',
+            onClick: () {
+              Navigator.of(context).pushNamed(NavigationPath.tikTokRootScreen);
+            },
+          ),
         ],
       ),
     );

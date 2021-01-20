@@ -9,4 +9,5 @@ class NavigationPath {
   static const onlineHomeScreen = 'OnlineHomeScreen';
   static const instagramRootScreen = 'InstagramRootScreen';
   static const fbHomeScreen = 'FBHomeScreen';
+  static const tikTokRootScreen = 'TikTokRootScreen';
 }
